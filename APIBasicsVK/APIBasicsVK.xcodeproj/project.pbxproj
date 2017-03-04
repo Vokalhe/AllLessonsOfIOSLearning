@@ -1,0 +1,486 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3A9190BB6E096AE92F6E9582 /* libPods-APIBasicsVK.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F0FA275784954EA5A4D5CEC /* libPods-APIBasicsVK.a */; };
+		84E469141E3A8240006CBA18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E469131E3A8240006CBA18 /* main.m */; };
+		84E469171E3A8240006CBA18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E469161E3A8240006CBA18 /* AppDelegate.m */; };
+		84E4691A1E3A8240006CBA18 /* EVAMyFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E469191E3A8240006CBA18 /* EVAMyFriendsViewController.m */; };
+		84E4691D1E3A8240006CBA18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E4691B1E3A8240006CBA18 /* Main.storyboard */; };
+		84E469201E3A8240006CBA18 /* APIBasicsVK.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E4691E1E3A8240006CBA18 /* APIBasicsVK.xcdatamodeld */; };
+		84E469221E3A8240006CBA18 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E469211E3A8240006CBA18 /* Assets.xcassets */; };
+		84E469251E3A8240006CBA18 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E469231E3A8240006CBA18 /* LaunchScreen.storyboard */; };
+		84E4692F1E3A843F006CBA18 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4692E1E3A843F006CBA18 /* User.m */; };
+		84E469321E3A84B4006CBA18 /* EVAServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E469311E3A84B4006CBA18 /* EVAServerManager.m */; };
+		84E469351E3AA048006CBA18 /* EVAFriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E469341E3AA048006CBA18 /* EVAFriendsViewController.m */; };
+		84E4C65D1E43D8D5003E243A /* Subscribers.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4C65C1E43D8D5003E243A /* Subscribers.m */; };
+		84E4D7EE1E42A47F00269C7A /* EVASubscriptionsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4D7ED1E42A47F00269C7A /* EVASubscriptionsTableViewController.m */; };
+		84ECF6A11E45285F00F6FC60 /* EVAFollowersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84ECF6A01E45285F00F6FC60 /* EVAFollowersTableViewController.m */; };
+		84F093EE1E46819600DAB877 /* EVAWallTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F093ED1E46819600DAB877 /* EVAWallTableViewController.m */; };
+		84F093F11E46940300DAB877 /* Wall.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F093F01E46940300DAB877 /* Wall.m */; };
+		84F093F41E46989B00DAB877 /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F093F31E46989B00DAB877 /* Group.m */; };
+		84F093F81E46A64400DAB877 /* PostWallTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84F093F71E46A64400DAB877 /* PostWallTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F0FA275784954EA5A4D5CEC /* libPods-APIBasicsVK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-APIBasicsVK.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E4690F1E3A8240006CBA18 /* APIBasicsVK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = APIBasicsVK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E469131E3A8240006CBA18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E469151E3A8240006CBA18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84E469161E3A8240006CBA18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E469181E3A8240006CBA18 /* EVAMyFriendsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EVAMyFriendsViewController.h; sourceTree = "<group>"; };
+		84E469191E3A8240006CBA18 /* EVAMyFriendsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EVAMyFriendsViewController.m; sourceTree = "<group>"; };
+		84E4691C1E3A8240006CBA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E4691F1E3A8240006CBA18 /* APIBasicsVK.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = APIBasicsVK.xcdatamodel; sourceTree = "<group>"; };
+		84E469211E3A8240006CBA18 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E469241E3A8240006CBA18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E469261E3A8240006CBA18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E4692D1E3A843F006CBA18 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		84E4692E1E3A843F006CBA18 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		84E469301E3A84B4006CBA18 /* EVAServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAServerManager.h; sourceTree = "<group>"; };
+		84E469311E3A84B4006CBA18 /* EVAServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAServerManager.m; sourceTree = "<group>"; };
+		84E469331E3AA048006CBA18 /* EVAFriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAFriendsViewController.h; sourceTree = "<group>"; };
+		84E469341E3AA048006CBA18 /* EVAFriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAFriendsViewController.m; sourceTree = "<group>"; };
+		84E4C65B1E43D8D4003E243A /* Subscribers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Subscribers.h; sourceTree = "<group>"; };
+		84E4C65C1E43D8D5003E243A /* Subscribers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Subscribers.m; sourceTree = "<group>"; };
+		84E4D7EC1E42A47F00269C7A /* EVASubscriptionsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVASubscriptionsTableViewController.h; sourceTree = "<group>"; };
+		84E4D7ED1E42A47F00269C7A /* EVASubscriptionsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVASubscriptionsTableViewController.m; sourceTree = "<group>"; };
+		84ECF69F1E45285F00F6FC60 /* EVAFollowersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAFollowersTableViewController.h; sourceTree = "<group>"; };
+		84ECF6A01E45285F00F6FC60 /* EVAFollowersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAFollowersTableViewController.m; sourceTree = "<group>"; };
+		84F093EC1E46819600DAB877 /* EVAWallTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAWallTableViewController.h; sourceTree = "<group>"; };
+		84F093ED1E46819600DAB877 /* EVAWallTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAWallTableViewController.m; sourceTree = "<group>"; };
+		84F093EF1E46940300DAB877 /* Wall.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Wall.h; sourceTree = "<group>"; };
+		84F093F01E46940300DAB877 /* Wall.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Wall.m; sourceTree = "<group>"; };
+		84F093F21E46989B00DAB877 /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		84F093F31E46989B00DAB877 /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		84F093F61E46A64400DAB877 /* PostWallTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostWallTableViewCell.h; sourceTree = "<group>"; };
+		84F093F71E46A64400DAB877 /* PostWallTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostWallTableViewCell.m; sourceTree = "<group>"; };
+		BF0F0D9C6BC4DAA103EBDF27 /* Pods-APIBasicsVK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIBasicsVK.release.xcconfig"; path = "Pods/Target Support Files/Pods-APIBasicsVK/Pods-APIBasicsVK.release.xcconfig"; sourceTree = "<group>"; };
+		C72B6FD5C8F4166DA7965638 /* Pods-APIBasicsVK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-APIBasicsVK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-APIBasicsVK/Pods-APIBasicsVK.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E4690C1E3A8240006CBA18 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A9190BB6E096AE92F6E9582 /* libPods-APIBasicsVK.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F234C686B7D79E11804C126 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C72B6FD5C8F4166DA7965638 /* Pods-APIBasicsVK.debug.xcconfig */,
+				BF0F0D9C6BC4DAA103EBDF27 /* Pods-APIBasicsVK.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		28530BA44F2293DE02950DC9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0F0FA275784954EA5A4D5CEC /* libPods-APIBasicsVK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84E469061E3A823F006CBA18 = {
+			isa = PBXGroup;
+			children = (
+				84E469111E3A8240006CBA18 /* APIBasicsVK */,
+				84E469101E3A8240006CBA18 /* Products */,
+				0F234C686B7D79E11804C126 /* Pods */,
+				28530BA44F2293DE02950DC9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84E469101E3A8240006CBA18 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E4690F1E3A8240006CBA18 /* APIBasicsVK.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E469111E3A8240006CBA18 /* APIBasicsVK */ = {
+			isa = PBXGroup;
+			children = (
+				84F093F51E46A62400DAB877 /* Cells */,
+				84E469361E3AA04F006CBA18 /* Controller */,
+				84E4692C1E3A8411006CBA18 /* Model */,
+				84E469151E3A8240006CBA18 /* AppDelegate.h */,
+				84E469161E3A8240006CBA18 /* AppDelegate.m */,
+				84E4691B1E3A8240006CBA18 /* Main.storyboard */,
+				84E469211E3A8240006CBA18 /* Assets.xcassets */,
+				84E469231E3A8240006CBA18 /* LaunchScreen.storyboard */,
+				84E469261E3A8240006CBA18 /* Info.plist */,
+				84E4691E1E3A8240006CBA18 /* APIBasicsVK.xcdatamodeld */,
+				84E469121E3A8240006CBA18 /* Supporting Files */,
+				84E469301E3A84B4006CBA18 /* EVAServerManager.h */,
+				84E469311E3A84B4006CBA18 /* EVAServerManager.m */,
+			);
+			path = APIBasicsVK;
+			sourceTree = "<group>";
+		};
+		84E469121E3A8240006CBA18 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E469131E3A8240006CBA18 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E4692C1E3A8411006CBA18 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84E4692D1E3A843F006CBA18 /* User.h */,
+				84E4692E1E3A843F006CBA18 /* User.m */,
+				84E4C65B1E43D8D4003E243A /* Subscribers.h */,
+				84E4C65C1E43D8D5003E243A /* Subscribers.m */,
+				84F093EF1E46940300DAB877 /* Wall.h */,
+				84F093F01E46940300DAB877 /* Wall.m */,
+				84F093F21E46989B00DAB877 /* Group.h */,
+				84F093F31E46989B00DAB877 /* Group.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84E469361E3AA04F006CBA18 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				84E469181E3A8240006CBA18 /* EVAMyFriendsViewController.h */,
+				84E469191E3A8240006CBA18 /* EVAMyFriendsViewController.m */,
+				84E469331E3AA048006CBA18 /* EVAFriendsViewController.h */,
+				84E469341E3AA048006CBA18 /* EVAFriendsViewController.m */,
+				84E4D7EC1E42A47F00269C7A /* EVASubscriptionsTableViewController.h */,
+				84E4D7ED1E42A47F00269C7A /* EVASubscriptionsTableViewController.m */,
+				84ECF69F1E45285F00F6FC60 /* EVAFollowersTableViewController.h */,
+				84ECF6A01E45285F00F6FC60 /* EVAFollowersTableViewController.m */,
+				84F093EC1E46819600DAB877 /* EVAWallTableViewController.h */,
+				84F093ED1E46819600DAB877 /* EVAWallTableViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		84F093F51E46A62400DAB877 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				84F093F61E46A64400DAB877 /* PostWallTableViewCell.h */,
+				84F093F71E46A64400DAB877 /* PostWallTableViewCell.m */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E4690E1E3A8240006CBA18 /* APIBasicsVK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E469291E3A8240006CBA18 /* Build configuration list for PBXNativeTarget "APIBasicsVK" */;
+			buildPhases = (
+				635D55BB1550D61031F2ABBE /* [CP] Check Pods Manifest.lock */,
+				84E4690B1E3A8240006CBA18 /* Sources */,
+				84E4690C1E3A8240006CBA18 /* Frameworks */,
+				84E4690D1E3A8240006CBA18 /* Resources */,
+				42A2661B4555CCB40B756B3A /* [CP] Embed Pods Frameworks */,
+				08CF6DAEBCFED8ED6A61C185 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = APIBasicsVK;
+			productName = APIBasicsVK;
+			productReference = 84E4690F1E3A8240006CBA18 /* APIBasicsVK.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E469071E3A823F006CBA18 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ehlakov Victor";
+				TargetAttributes = {
+					84E4690E1E3A8240006CBA18 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 84E4690A1E3A823F006CBA18 /* Build configuration list for PBXProject "APIBasicsVK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E469061E3A823F006CBA18;
+			productRefGroup = 84E469101E3A8240006CBA18 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E4690E1E3A8240006CBA18 /* APIBasicsVK */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E4690D1E3A8240006CBA18 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E469251E3A8240006CBA18 /* LaunchScreen.storyboard in Resources */,
+				84E469221E3A8240006CBA18 /* Assets.xcassets in Resources */,
+				84E4691D1E3A8240006CBA18 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		08CF6DAEBCFED8ED6A61C185 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APIBasicsVK/Pods-APIBasicsVK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42A2661B4555CCB40B756B3A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-APIBasicsVK/Pods-APIBasicsVK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		635D55BB1550D61031F2ABBE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E4690B1E3A8240006CBA18 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E4692F1E3A843F006CBA18 /* User.m in Sources */,
+				84E469321E3A84B4006CBA18 /* EVAServerManager.m in Sources */,
+				84ECF6A11E45285F00F6FC60 /* EVAFollowersTableViewController.m in Sources */,
+				84E4C65D1E43D8D5003E243A /* Subscribers.m in Sources */,
+				84F093F41E46989B00DAB877 /* Group.m in Sources */,
+				84E469201E3A8240006CBA18 /* APIBasicsVK.xcdatamodeld in Sources */,
+				84F093F11E46940300DAB877 /* Wall.m in Sources */,
+				84F093F81E46A64400DAB877 /* PostWallTableViewCell.m in Sources */,
+				84E4D7EE1E42A47F00269C7A /* EVASubscriptionsTableViewController.m in Sources */,
+				84E4691A1E3A8240006CBA18 /* EVAMyFriendsViewController.m in Sources */,
+				84F093EE1E46819600DAB877 /* EVAWallTableViewController.m in Sources */,
+				84E469171E3A8240006CBA18 /* AppDelegate.m in Sources */,
+				84E469351E3AA048006CBA18 /* EVAFriendsViewController.m in Sources */,
+				84E469141E3A8240006CBA18 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84E4691B1E3A8240006CBA18 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E4691C1E3A8240006CBA18 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E469231E3A8240006CBA18 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E469241E3A8240006CBA18 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E469271E3A8240006CBA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E469281E3A8240006CBA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E4692A1E3A8240006CBA18 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C72B6FD5C8F4166DA7965638 /* Pods-APIBasicsVK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APIBasicsVK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.APIBasicsVK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84E4692B1E3A8240006CBA18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0F0D9C6BC4DAA103EBDF27 /* Pods-APIBasicsVK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = APIBasicsVK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.APIBasicsVK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E4690A1E3A823F006CBA18 /* Build configuration list for PBXProject "APIBasicsVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E469271E3A8240006CBA18 /* Debug */,
+				84E469281E3A8240006CBA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E469291E3A8240006CBA18 /* Build configuration list for PBXNativeTarget "APIBasicsVK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E4692A1E3A8240006CBA18 /* Debug */,
+				84E4692B1E3A8240006CBA18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84E4691E1E3A8240006CBA18 /* APIBasicsVK.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84E4691F1E3A8240006CBA18 /* APIBasicsVK.xcdatamodel */,
+			);
+			currentVersion = 84E4691F1E3A8240006CBA18 /* APIBasicsVK.xcdatamodel */;
+			path = APIBasicsVK.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84E469071E3A823F006CBA18 /* Project object */;
+}

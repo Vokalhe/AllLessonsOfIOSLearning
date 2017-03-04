@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Courses" representedClassName="Courses" parentEntity="Object" syncable="YES">
+        <attribute name="nameOfCourse" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="studentsInCourse" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Students" inverseName="courses" inverseEntity="Students" syncable="YES"/>
+        <relationship name="teachersOfCourse" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Teachers" inverseName="courses" inverseEntity="Teachers" syncable="YES"/>
+    </entity>
+    <entity name="Object" representedClassName="Object" isAbstract="YES" syncable="YES"/>
+    <entity name="Students" representedClassName="Students" parentEntity="Object">
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Courses" inverseName="studentsInCourse" inverseEntity="Courses" syncable="YES"/>
+        <userInfo/>
+    </entity>
+    <entity name="Teachers" representedClassName="Teachers" parentEntity="Object" syncable="YES">
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="courses" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Courses" inverseName="teachersOfCourse" inverseEntity="Courses" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Courses" positionX="-5049" positionY="-1593" width="128" height="88"/>
+        <element name="Object" positionX="-5114" positionY="-1710" width="128" height="43"/>
+        <element name="Students" positionX="-5292" positionY="-1579" width="162" height="103"/>
+        <element name="Teachers" positionX="-4880" positionY="-1606" width="128" height="88"/>
+    </elements>
+</model>

@@ -1,0 +1,376 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DAEEF91DD8AF8C008B2388 /* UIView+MKAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DAEEF81DD8AF8C008B2388 /* UIView+MKAnnotationView.m */; };
+		84DAEEFD1DD8BD11008B2388 /* EVAPopoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DAEEFC1DD8BD11008B2388 /* EVAPopoverViewController.m */; };
+		84E6A79F1DD507FC00CDD86C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A79E1DD507FC00CDD86C /* main.m */; };
+		84E6A7A21DD507FC00CDD86C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A7A11DD507FC00CDD86C /* AppDelegate.m */; };
+		84E6A7A51DD507FC00CDD86C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A7A41DD507FC00CDD86C /* ViewController.m */; };
+		84E6A7A81DD507FC00CDD86C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E6A7A61DD507FC00CDD86C /* Main.storyboard */; };
+		84E6A7AA1DD507FC00CDD86C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E6A7A91DD507FC00CDD86C /* Assets.xcassets */; };
+		84E6A7AD1DD507FC00CDD86C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E6A7AB1DD507FC00CDD86C /* LaunchScreen.storyboard */; };
+		84E6A7B51DD508CE00CDD86C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84E6A7B41DD508CE00CDD86C /* MapKit.framework */; };
+		84E6A7B81DD50F6600CDD86C /* EVAStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E6A7B71DD50F6600CDD86C /* EVAStudent.m */; };
+		84E74C5A1DD9E82C002D5B84 /* EVAAnnotationMeeting.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E74C591DD9E82C002D5B84 /* EVAAnnotationMeeting.m */; };
+		84E7AA281DDA0D5700AD51CA /* meeting.png in Resources */ = {isa = PBXBuildFile; fileRef = 84E7AA271DDA0D5600AD51CA /* meeting.png */; };
+		84E7AA2B1DDA250D00AD51CA /* EVAInfoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E7AA2A1DDA250D00AD51CA /* EVAInfoView.m */; };
+		84E9E9521DD520CF000C840A /* EVAMKAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E9E9511DD520CF000C840A /* EVAMKAnnotation.m */; };
+		84EFC9A71DD636CC00578598 /* men.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFC9A51DD636CC00578598 /* men.png */; };
+		84EFC9A81DD636CC00578598 /* women.png in Resources */ = {isa = PBXBuildFile; fileRef = 84EFC9A61DD636CC00578598 /* women.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84DAEEF71DD8AF8C008B2388 /* UIView+MKAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+MKAnnotationView.h"; sourceTree = "<group>"; };
+		84DAEEF81DD8AF8C008B2388 /* UIView+MKAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+MKAnnotationView.m"; sourceTree = "<group>"; };
+		84DAEEFB1DD8BD11008B2388 /* EVAPopoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAPopoverViewController.h; sourceTree = "<group>"; };
+		84DAEEFC1DD8BD11008B2388 /* EVAPopoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAPopoverViewController.m; sourceTree = "<group>"; };
+		84E6A79A1DD507FC00CDD86C /* MKMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MKMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E6A79E1DD507FC00CDD86C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84E6A7A01DD507FC00CDD86C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84E6A7A11DD507FC00CDD86C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E6A7A31DD507FC00CDD86C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84E6A7A41DD507FC00CDD86C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84E6A7A71DD507FC00CDD86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84E6A7A91DD507FC00CDD86C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84E6A7AC1DD507FC00CDD86C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84E6A7AE1DD507FC00CDD86C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E6A7B41DD508CE00CDD86C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		84E6A7B61DD50F6600CDD86C /* EVAStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAStudent.h; sourceTree = "<group>"; };
+		84E6A7B71DD50F6600CDD86C /* EVAStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAStudent.m; sourceTree = "<group>"; };
+		84E74C581DD9E82B002D5B84 /* EVAAnnotationMeeting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAAnnotationMeeting.h; sourceTree = "<group>"; };
+		84E74C591DD9E82C002D5B84 /* EVAAnnotationMeeting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAAnnotationMeeting.m; sourceTree = "<group>"; };
+		84E7AA271DDA0D5600AD51CA /* meeting.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = meeting.png; path = images/meeting.png; sourceTree = "<group>"; };
+		84E7AA291DDA250D00AD51CA /* EVAInfoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAInfoView.h; sourceTree = "<group>"; };
+		84E7AA2A1DDA250D00AD51CA /* EVAInfoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAInfoView.m; sourceTree = "<group>"; };
+		84E9E9501DD520CF000C840A /* EVAMKAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVAMKAnnotation.h; sourceTree = "<group>"; };
+		84E9E9511DD520CF000C840A /* EVAMKAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVAMKAnnotation.m; sourceTree = "<group>"; };
+		84EFC9A51DD636CC00578598 /* men.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = men.png; path = images/men.png; sourceTree = "<group>"; };
+		84EFC9A61DD636CC00578598 /* women.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = women.png; path = images/women.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84E6A7971DD507FC00CDD86C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6A7B51DD508CE00CDD86C /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DAEEFA1DD8B759008B2388 /* Annotation */ = {
+			isa = PBXGroup;
+			children = (
+				84E9E9501DD520CF000C840A /* EVAMKAnnotation.h */,
+				84E9E9511DD520CF000C840A /* EVAMKAnnotation.m */,
+				84DAEEF71DD8AF8C008B2388 /* UIView+MKAnnotationView.h */,
+				84DAEEF81DD8AF8C008B2388 /* UIView+MKAnnotationView.m */,
+				84E74C581DD9E82B002D5B84 /* EVAAnnotationMeeting.h */,
+				84E74C591DD9E82C002D5B84 /* EVAAnnotationMeeting.m */,
+			);
+			name = Annotation;
+			sourceTree = "<group>";
+		};
+		84E6A7911DD507FC00CDD86C = {
+			isa = PBXGroup;
+			children = (
+				84E6A7B41DD508CE00CDD86C /* MapKit.framework */,
+				84E6A79C1DD507FC00CDD86C /* MKMapView */,
+				84E6A79B1DD507FC00CDD86C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84E6A79B1DD507FC00CDD86C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84E6A79A1DD507FC00CDD86C /* MKMapView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84E6A79C1DD507FC00CDD86C /* MKMapView */ = {
+			isa = PBXGroup;
+			children = (
+				84E6A7A01DD507FC00CDD86C /* AppDelegate.h */,
+				84E6A7A11DD507FC00CDD86C /* AppDelegate.m */,
+				84E6A7A31DD507FC00CDD86C /* ViewController.h */,
+				84E6A7A41DD507FC00CDD86C /* ViewController.m */,
+				84E6A7A61DD507FC00CDD86C /* Main.storyboard */,
+				84E6A7A91DD507FC00CDD86C /* Assets.xcassets */,
+				84E6A7AB1DD507FC00CDD86C /* LaunchScreen.storyboard */,
+				84E6A7AE1DD507FC00CDD86C /* Info.plist */,
+				84E6A79D1DD507FC00CDD86C /* Supporting Files */,
+				84E6A7B61DD50F6600CDD86C /* EVAStudent.h */,
+				84E6A7B71DD50F6600CDD86C /* EVAStudent.m */,
+				84DAEEFA1DD8B759008B2388 /* Annotation */,
+				84EFC99A1DD62DC800578598 /* images */,
+				84DAEEFB1DD8BD11008B2388 /* EVAPopoverViewController.h */,
+				84DAEEFC1DD8BD11008B2388 /* EVAPopoverViewController.m */,
+				84E7AA291DDA250D00AD51CA /* EVAInfoView.h */,
+				84E7AA2A1DDA250D00AD51CA /* EVAInfoView.m */,
+			);
+			path = MKMapView;
+			sourceTree = "<group>";
+		};
+		84E6A79D1DD507FC00CDD86C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84E6A79E1DD507FC00CDD86C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84EFC99A1DD62DC800578598 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				84E7AA271DDA0D5600AD51CA /* meeting.png */,
+				84EFC9A51DD636CC00578598 /* men.png */,
+				84EFC9A61DD636CC00578598 /* women.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84E6A7991DD507FC00CDD86C /* MKMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84E6A7B11DD507FC00CDD86C /* Build configuration list for PBXNativeTarget "MKMapView" */;
+			buildPhases = (
+				84E6A7961DD507FC00CDD86C /* Sources */,
+				84E6A7971DD507FC00CDD86C /* Frameworks */,
+				84E6A7981DD507FC00CDD86C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MKMapView;
+			productName = MKMapView;
+			productReference = 84E6A79A1DD507FC00CDD86C /* MKMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84E6A7921DD507FC00CDD86C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ehlakov Victor";
+				TargetAttributes = {
+					84E6A7991DD507FC00CDD86C = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 84E6A7951DD507FC00CDD86C /* Build configuration list for PBXProject "MKMapView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84E6A7911DD507FC00CDD86C;
+			productRefGroup = 84E6A79B1DD507FC00CDD86C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84E6A7991DD507FC00CDD86C /* MKMapView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84E6A7981DD507FC00CDD86C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E6A7AD1DD507FC00CDD86C /* LaunchScreen.storyboard in Resources */,
+				84E7AA281DDA0D5700AD51CA /* meeting.png in Resources */,
+				84EFC9A81DD636CC00578598 /* women.png in Resources */,
+				84E6A7AA1DD507FC00CDD86C /* Assets.xcassets in Resources */,
+				84EFC9A71DD636CC00578598 /* men.png in Resources */,
+				84E6A7A81DD507FC00CDD86C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84E6A7961DD507FC00CDD86C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E7AA2B1DDA250D00AD51CA /* EVAInfoView.m in Sources */,
+				84E6A7A51DD507FC00CDD86C /* ViewController.m in Sources */,
+				84E74C5A1DD9E82C002D5B84 /* EVAAnnotationMeeting.m in Sources */,
+				84E6A7A21DD507FC00CDD86C /* AppDelegate.m in Sources */,
+				84DAEEFD1DD8BD11008B2388 /* EVAPopoverViewController.m in Sources */,
+				84E9E9521DD520CF000C840A /* EVAMKAnnotation.m in Sources */,
+				84E6A7B81DD50F6600CDD86C /* EVAStudent.m in Sources */,
+				84DAEEF91DD8AF8C008B2388 /* UIView+MKAnnotationView.m in Sources */,
+				84E6A79F1DD507FC00CDD86C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84E6A7A61DD507FC00CDD86C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E6A7A71DD507FC00CDD86C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84E6A7AB1DD507FC00CDD86C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84E6A7AC1DD507FC00CDD86C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84E6A7AF1DD507FC00CDD86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84E6A7B01DD507FC00CDD86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E6A7B21DD507FC00CDD86C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKMapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.MKMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84E6A7B31DD507FC00CDD86C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MKMapView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.MKMapView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84E6A7951DD507FC00CDD86C /* Build configuration list for PBXProject "MKMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E6A7AF1DD507FC00CDD86C /* Debug */,
+				84E6A7B01DD507FC00CDD86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84E6A7B11DD507FC00CDD86C /* Build configuration list for PBXNativeTarget "MKMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E6A7B21DD507FC00CDD86C /* Debug */,
+				84E6A7B31DD507FC00CDD86C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84E6A7921DD507FC00CDD86C /* Project object */;
+}

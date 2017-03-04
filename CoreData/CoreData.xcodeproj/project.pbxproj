@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84DD58031DECDFC400B92DB2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD58021DECDFC400B92DB2 /* main.m */; };
+		84DD58061DECDFC400B92DB2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DD58051DECDFC400B92DB2 /* AppDelegate.m */; };
+		84DD58091DECDFC400B92DB2 /* CoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84DD58071DECDFC400B92DB2 /* CoreData.xcdatamodeld */; };
+		84DD58121DECDFC400B92DB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD58101DECDFC400B92DB2 /* Main.storyboard */; };
+		84DD58141DECDFC400B92DB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84DD58131DECDFC400B92DB2 /* Assets.xcassets */; };
+		84DD58171DECDFC400B92DB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84DD58151DECDFC400B92DB2 /* LaunchScreen.storyboard */; };
+		84E32D091DF8ABF50092D42D /* CoursesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E32D081DF8ABF50092D42D /* CoursesTableViewController.m */; };
+		84E32D0C1DF8AC1A0092D42D /* TeachersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E32D0B1DF8AC1A0092D42D /* TeachersTableViewController.m */; };
+		84E32D0F1DF8B8470092D42D /* UIView+SuperTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E32D0E1DF8B8470092D42D /* UIView+SuperTableViewCell.m */; };
+		84E3622B1DF74D6C008EE8FD /* DetailTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E3622A1DF74D6C008EE8FD /* DetailTableViewCell.m */; };
+		84E451601DEE0CF800F916F4 /* Task in Resources */ = {isa = PBXBuildFile; fileRef = 84E4515F1DEE0CF800F916F4 /* Task */; };
+		84E4516F1DEE1B9500F916F4 /* CoreDataTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E4516E1DEE1B9500F916F4 /* CoreDataTableViewController.m */; };
+		84E451721DEE1C1900F916F4 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E451711DEE1C1900F916F4 /* DataManager.m */; };
+		84E451751DEE2E9F00F916F4 /* StudentsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E451741DEE2E9F00F916F4 /* StudentsTableViewController.m */; };
+		84E77FA51DF6BD8900E90D13 /* Teachers+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E77F961DF6BD8900E90D13 /* Teachers+CoreDataProperties.m */; };
+		84E77FA61DF6BD8900E90D13 /* Teachers.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E77F981DF6BD8900E90D13 /* Teachers.m */; };
+		84E77FA71DF6BD8900E90D13 /* Courses+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E77F9A1DF6BD8900E90D13 /* Courses+CoreDataProperties.m */; };
+		84E77FA81DF6BD8900E90D13 /* Courses.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E77F9C1DF6BD8900E90D13 /* Courses.m */; };
+		84E77FA91DF6BD8900E90D13 /* Students+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E77F9E1DF6BD8900E90D13 /* Students+CoreDataProperties.m */; };
+		84E77FAA1DF6BD8900E90D13 /* Students.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E77FA01DF6BD8900E90D13 /* Students.m */; };
+		84E77FAB1DF6BD8900E90D13 /* Object+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E77FA21DF6BD8900E90D13 /* Object+CoreDataProperties.m */; };
+		84E77FAC1DF6BD8900E90D13 /* Object.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E77FA41DF6BD8900E90D13 /* Object.m */; };
+		84E77FAF1DF6CF4C00E90D13 /* DetailsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E77FAE1DF6CF4C00E90D13 /* DetailsTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		84DD57FE1DECDFC400B92DB2 /* CoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84DD58021DECDFC400B92DB2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84DD58041DECDFC400B92DB2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84DD58051DECDFC400B92DB2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84DD58081DECDFC400B92DB2 /* CoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CoreData.xcdatamodel; sourceTree = "<group>"; };
+		84DD58111DECDFC400B92DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84DD58131DECDFC400B92DB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84DD58161DECDFC400B92DB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84DD58181DECDFC400B92DB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84E32D071DF8ABF50092D42D /* CoursesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoursesTableViewController.h; sourceTree = "<group>"; };
+		84E32D081DF8ABF50092D42D /* CoursesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoursesTableViewController.m; sourceTree = "<group>"; };
+		84E32D0A1DF8AC1A0092D42D /* TeachersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TeachersTableViewController.h; sourceTree = "<group>"; };
+		84E32D0B1DF8AC1A0092D42D /* TeachersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TeachersTableViewController.m; sourceTree = "<group>"; };
+		84E32D0D1DF8B8470092D42D /* UIView+SuperTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+SuperTableViewCell.h"; sourceTree = "<group>"; };
+		84E32D0E1DF8B8470092D42D /* UIView+SuperTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SuperTableViewCell.m"; sourceTree = "<group>"; };
+		84E362291DF74D6C008EE8FD /* DetailTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableViewCell.h; sourceTree = "<group>"; };
+		84E3622A1DF74D6C008EE8FD /* DetailTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableViewCell.m; sourceTree = "<group>"; };
+		84E4515F1DEE0CF800F916F4 /* Task */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Task; sourceTree = "<group>"; };
+		84E4516D1DEE1B9500F916F4 /* CoreDataTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreDataTableViewController.h; sourceTree = "<group>"; };
+		84E4516E1DEE1B9500F916F4 /* CoreDataTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreDataTableViewController.m; sourceTree = "<group>"; };
+		84E451701DEE1C1900F916F4 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		84E451711DEE1C1900F916F4 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		84E451731DEE2E9F00F916F4 /* StudentsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StudentsTableViewController.h; sourceTree = "<group>"; };
+		84E451741DEE2E9F00F916F4 /* StudentsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StudentsTableViewController.m; sourceTree = "<group>"; };
+		84E77F951DF6BD8900E90D13 /* Teachers+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teachers+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84E77F961DF6BD8900E90D13 /* Teachers+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teachers+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84E77F971DF6BD8900E90D13 /* Teachers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teachers.h; sourceTree = "<group>"; };
+		84E77F981DF6BD8900E90D13 /* Teachers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teachers.m; sourceTree = "<group>"; };
+		84E77F991DF6BD8900E90D13 /* Courses+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Courses+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84E77F9A1DF6BD8900E90D13 /* Courses+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Courses+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84E77F9B1DF6BD8900E90D13 /* Courses.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Courses.h; sourceTree = "<group>"; };
+		84E77F9C1DF6BD8900E90D13 /* Courses.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Courses.m; sourceTree = "<group>"; };
+		84E77F9D1DF6BD8900E90D13 /* Students+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Students+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84E77F9E1DF6BD8900E90D13 /* Students+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Students+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84E77F9F1DF6BD8900E90D13 /* Students.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Students.h; sourceTree = "<group>"; };
+		84E77FA01DF6BD8900E90D13 /* Students.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Students.m; sourceTree = "<group>"; };
+		84E77FA11DF6BD8900E90D13 /* Object+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Object+CoreDataProperties.h"; sourceTree = "<group>"; };
+		84E77FA21DF6BD8900E90D13 /* Object+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Object+CoreDataProperties.m"; sourceTree = "<group>"; };
+		84E77FA31DF6BD8900E90D13 /* Object.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Object.h; sourceTree = "<group>"; };
+		84E77FA41DF6BD8900E90D13 /* Object.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Object.m; sourceTree = "<group>"; };
+		84E77FAD1DF6CF4C00E90D13 /* DetailsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailsTableViewController.h; sourceTree = "<group>"; };
+		84E77FAE1DF6CF4C00E90D13 /* DetailsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailsTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84DD57FB1DECDFC400B92DB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84DD57F51DECDFC400B92DB2 = {
+			isa = PBXGroup;
+			children = (
+				84DD58001DECDFC400B92DB2 /* CoreData */,
+				84DD57FF1DECDFC400B92DB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84DD57FF1DECDFC400B92DB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84DD57FE1DECDFC400B92DB2 /* CoreData.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84DD58001DECDFC400B92DB2 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				84DD58041DECDFC400B92DB2 /* AppDelegate.h */,
+				84DD58051DECDFC400B92DB2 /* AppDelegate.m */,
+				84DD58101DECDFC400B92DB2 /* Main.storyboard */,
+				84DD58131DECDFC400B92DB2 /* Assets.xcassets */,
+				84DD58151DECDFC400B92DB2 /* LaunchScreen.storyboard */,
+				84DD58181DECDFC400B92DB2 /* Info.plist */,
+				84DD58071DECDFC400B92DB2 /* CoreData.xcdatamodeld */,
+				84E080CD1DF6137D00A11218 /* Model */,
+				84E451691DEE16EC00F916F4 /* View */,
+				84DD58011DECDFC400B92DB2 /* Supporting Files */,
+				84E4515F1DEE0CF800F916F4 /* Task */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		84DD58011DECDFC400B92DB2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84DD58021DECDFC400B92DB2 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E080CD1DF6137D00A11218 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84E77F951DF6BD8900E90D13 /* Teachers+CoreDataProperties.h */,
+				84E77F961DF6BD8900E90D13 /* Teachers+CoreDataProperties.m */,
+				84E77F971DF6BD8900E90D13 /* Teachers.h */,
+				84E77F981DF6BD8900E90D13 /* Teachers.m */,
+				84E77F991DF6BD8900E90D13 /* Courses+CoreDataProperties.h */,
+				84E77F9A1DF6BD8900E90D13 /* Courses+CoreDataProperties.m */,
+				84E77F9B1DF6BD8900E90D13 /* Courses.h */,
+				84E77F9C1DF6BD8900E90D13 /* Courses.m */,
+				84E77F9D1DF6BD8900E90D13 /* Students+CoreDataProperties.h */,
+				84E77F9E1DF6BD8900E90D13 /* Students+CoreDataProperties.m */,
+				84E77F9F1DF6BD8900E90D13 /* Students.h */,
+				84E77FA01DF6BD8900E90D13 /* Students.m */,
+				84E77FA11DF6BD8900E90D13 /* Object+CoreDataProperties.h */,
+				84E77FA21DF6BD8900E90D13 /* Object+CoreDataProperties.m */,
+				84E77FA31DF6BD8900E90D13 /* Object.h */,
+				84E77FA41DF6BD8900E90D13 /* Object.m */,
+				84E451701DEE1C1900F916F4 /* DataManager.h */,
+				84E451711DEE1C1900F916F4 /* DataManager.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		84E451691DEE16EC00F916F4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84E4516D1DEE1B9500F916F4 /* CoreDataTableViewController.h */,
+				84E4516E1DEE1B9500F916F4 /* CoreDataTableViewController.m */,
+				84E451731DEE2E9F00F916F4 /* StudentsTableViewController.h */,
+				84E451741DEE2E9F00F916F4 /* StudentsTableViewController.m */,
+				84E32D071DF8ABF50092D42D /* CoursesTableViewController.h */,
+				84E32D081DF8ABF50092D42D /* CoursesTableViewController.m */,
+				84E32D0A1DF8AC1A0092D42D /* TeachersTableViewController.h */,
+				84E32D0B1DF8AC1A0092D42D /* TeachersTableViewController.m */,
+				84E77FAD1DF6CF4C00E90D13 /* DetailsTableViewController.h */,
+				84E77FAE1DF6CF4C00E90D13 /* DetailsTableViewController.m */,
+				84E362291DF74D6C008EE8FD /* DetailTableViewCell.h */,
+				84E3622A1DF74D6C008EE8FD /* DetailTableViewCell.m */,
+				84E32D0D1DF8B8470092D42D /* UIView+SuperTableViewCell.h */,
+				84E32D0E1DF8B8470092D42D /* UIView+SuperTableViewCell.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84DD57FD1DECDFC400B92DB2 /* CoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84DD581B1DECDFC500B92DB2 /* Build configuration list for PBXNativeTarget "CoreData" */;
+			buildPhases = (
+				84DD57FA1DECDFC400B92DB2 /* Sources */,
+				84DD57FB1DECDFC400B92DB2 /* Frameworks */,
+				84DD57FC1DECDFC400B92DB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CoreData;
+			productName = CoreData;
+			productReference = 84DD57FE1DECDFC400B92DB2 /* CoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84DD57F61DECDFC400B92DB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Ehlakov Victor";
+				TargetAttributes = {
+					84DD57FD1DECDFC400B92DB2 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 84DD57F91DECDFC400B92DB2 /* Build configuration list for PBXProject "CoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84DD57F51DECDFC400B92DB2;
+			productRefGroup = 84DD57FF1DECDFC400B92DB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84DD57FD1DECDFC400B92DB2 /* CoreData */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84DD57FC1DECDFC400B92DB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84DD58171DECDFC400B92DB2 /* LaunchScreen.storyboard in Resources */,
+				84DD58141DECDFC400B92DB2 /* Assets.xcassets in Resources */,
+				84DD58121DECDFC400B92DB2 /* Main.storyboard in Resources */,
+				84E451601DEE0CF800F916F4 /* Task in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84DD57FA1DECDFC400B92DB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84E77FA71DF6BD8900E90D13 /* Courses+CoreDataProperties.m in Sources */,
+				84E77FA91DF6BD8900E90D13 /* Students+CoreDataProperties.m in Sources */,
+				84E32D0F1DF8B8470092D42D /* UIView+SuperTableViewCell.m in Sources */,
+				84E451721DEE1C1900F916F4 /* DataManager.m in Sources */,
+				84E77FA51DF6BD8900E90D13 /* Teachers+CoreDataProperties.m in Sources */,
+				84E77FA81DF6BD8900E90D13 /* Courses.m in Sources */,
+				84E77FAF1DF6CF4C00E90D13 /* DetailsTableViewController.m in Sources */,
+				84E3622B1DF74D6C008EE8FD /* DetailTableViewCell.m in Sources */,
+				84E77FAB1DF6BD8900E90D13 /* Object+CoreDataProperties.m in Sources */,
+				84E4516F1DEE1B9500F916F4 /* CoreDataTableViewController.m in Sources */,
+				84DD58061DECDFC400B92DB2 /* AppDelegate.m in Sources */,
+				84E77FAC1DF6BD8900E90D13 /* Object.m in Sources */,
+				84DD58031DECDFC400B92DB2 /* main.m in Sources */,
+				84E451751DEE2E9F00F916F4 /* StudentsTableViewController.m in Sources */,
+				84E32D091DF8ABF50092D42D /* CoursesTableViewController.m in Sources */,
+				84E77FA61DF6BD8900E90D13 /* Teachers.m in Sources */,
+				84DD58091DECDFC400B92DB2 /* CoreData.xcdatamodeld in Sources */,
+				84E32D0C1DF8AC1A0092D42D /* TeachersTableViewController.m in Sources */,
+				84E77FAA1DF6BD8900E90D13 /* Students.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84DD58101DECDFC400B92DB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DD58111DECDFC400B92DB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84DD58151DECDFC400B92DB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84DD58161DECDFC400B92DB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84DD58191DECDFC400B92DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84DD581A1DECDFC400B92DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84DD581C1DECDFC500B92DB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.CoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84DD581D1DECDFC500B92DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = EVA.CoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84DD57F91DECDFC400B92DB2 /* Build configuration list for PBXProject "CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD58191DECDFC400B92DB2 /* Debug */,
+				84DD581A1DECDFC400B92DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84DD581B1DECDFC500B92DB2 /* Build configuration list for PBXNativeTarget "CoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84DD581C1DECDFC500B92DB2 /* Debug */,
+				84DD581D1DECDFC500B92DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		84DD58071DECDFC400B92DB2 /* CoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				84DD58081DECDFC400B92DB2 /* CoreData.xcdatamodel */,
+			);
+			currentVersion = 84DD58081DECDFC400B92DB2 /* CoreData.xcdatamodel */;
+			path = CoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 84DD57F61DECDFC400B92DB2 /* Project object */;
+}
